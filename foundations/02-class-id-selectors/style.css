@@ -1,7 +1,21 @@
-.odd {}
+.odd {
+    background-color: #f7b8b8;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
 
-.odd.big {}
+.odd.big {
+    font-size: 24px;
+}
 
-#bigid {}
+#bigid {
+    color: #0022e4;
+    font-size: 36px;
+    font-family: sans-serif;
+}
 
-#smallid {}
+#smallid {
+    background-color: #83f3a5;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
