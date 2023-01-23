@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  flex-direction: column;
+  gap: 16px;
   padding: 16px;
 }
 
@@ -36,6 +36,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -69,22 +70,15 @@ button.cancel {
 }
 
 .header {
-  font-weight: bold;
-  margin-right: auto;
-  align-self: flex-start;
-  font-size: 18px;
-}
-
-.up {
   display: flex;
-  gap: 16px;
-  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .text {
-  padding: 0 0px 16px 58px;
+  margin-bottom: 16px;
 }
 
-.down {
-  margin-left: 58px;
-}
